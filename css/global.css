@@ -16,7 +16,7 @@ a:hover {
     color: #fff;
 }
 h1,h2,h3,h4,h5 {
-    color: rgb(226, 255, 158);
+    color: #fff;
 }
 
 .header {
@@ -32,6 +32,7 @@ h1,h2,h3,h4,h5 {
 }
 .logo {
     width: 250px;
+    max-width: 60%;
     margin-bottom: 12px;
 }
 .video-section {
@@ -56,6 +57,9 @@ h1,h2,h3,h4,h5 {
 .section .content {
     width: 600px;
     max-width: 90%;
+}
+.repo-link {
+    font-size: 0.85em;
 }
 footer {
     margin-top: 12rem;
